@@ -1,0 +1,14 @@
+/* Effective stylesheet produced by snapshot save */
+div.messages { background-position: 8px 8px; background-repeat: no-repeat; border: 1px solid; margin: 6px 0px; padding: 10px 10px 10px 50px; }
+div.status { background-image: url("urn:not-loaded:http://localhost/drupal-7.22/misc/message-24-ok.png"); border-color: rgb(187, 238, 119); }
+div.status, .ok { color: rgb(35, 70, 0); }
+div.status, table tr.ok { background-color: rgb(248, 255, 240); }
+div.warning { background-image: url("urn:not-loaded:http://localhost/drupal-7.22/misc/message-24-warning.png"); border-color: rgb(238, 221, 85); }
+div.warning, .warning { color: rgb(136, 68, 0); }
+div.warning, table tr.warning { background-color: rgb(255, 252, 229); }
+div.error { background-image: url("urn:not-loaded:http://localhost/drupal-7.22/misc/message-24-error.png"); border-color: rgb(237, 84, 29); }
+div.error, .error { color: rgb(140, 46, 11); }
+div.error, table tr.error { background-color: rgb(254, 245, 241); }
+div.error p.error { color: rgb(51, 51, 51); }
+div.messages ul { margin: 0px 0px 0px 1em; padding: 0px; }
+div.messages ul li { list-style-image: none; }

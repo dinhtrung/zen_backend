@@ -1,0 +1,5 @@
+/* Effective stylesheet produced by snapshot save */
+.ctools-locked { color: red; border: 1px solid red; padding: 1em; }
+.ctools-owns-lock { background: none repeat scroll 0px 0px rgb(255, 255, 221); border: 1px solid rgb(240, 192, 32); padding: 1em; }
+a.ctools-ajaxing, input.ctools-ajaxing, button.ctools-ajaxing, select.ctools-ajaxing { padding-right: 18px ! important; background: url("urn:not-loaded:http://localhost/drupal-7.22/sites/all/modules/ctools/images/status-active.gif") no-repeat scroll right center transparent; }
+div.ctools-ajaxing { float: left; width: 18px; background: url("urn:not-loaded:http://localhost/drupal-7.22/sites/all/modules/ctools/images/status-active.gif") no-repeat scroll center center transparent; }

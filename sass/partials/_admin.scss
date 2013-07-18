@@ -1,0 +1,37 @@
+div.admin-panel {
+	border: 1px solid $successBackground;
+	@include trailer(1);
+	h3 {
+		margin: 0;
+		border-bottom: 1px solid $successBackground;
+		text-align: center;
+		color: $successText;
+		font-weight: normal;
+		text-transform: lowercase;
+		font-variant: small-caps;
+	}
+	.body {
+		padding: 0 1em;
+	}
+}
+	dl.admin-list {
+		dt {
+			a {
+				@include adjust-font-size-to(1.1*$base-font-size);
+				border-left: 0.5em solid $infoText;
+				padding-left: 1em;
+				color: $infoText;
+				&:hover, &:focus { color: $successText; }
+			}
+		}
+		dd {
+			@include adjust-font-size-to(0.9*$base-font-size);
+			border-left: 0.5em solid $infoBackground;
+			font-style: italic;
+			color: $gray;
+			border-bottom: 1px dotted $infoBackground;
+			margin: 0;
+			padding: 0 0 0 $indent-amount;
+			@include trailer(0.5);
+		}
+	}

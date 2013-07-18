@@ -1,0 +1,11 @@
+/** Support for overlay admin theme 
+
+**/
+
+.overlay {
+	/** Hide the unnecessary region in the overlay page **/
+  #header, #navigation, #footer {
+    display: none;
+  }
+  #main { padding-top: 0; }
+}

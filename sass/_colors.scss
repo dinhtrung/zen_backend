@@ -1,0 +1,121 @@
+// Grays
+// -------------------------
+$black:                 #000;
+$grayDarker:            #222;
+$grayDark:              #333;
+$gray:                  #555;
+$grayLight:             #999;
+$grayLighter:           #eee;
+$white:                 #fff;
+
+// Accent colors
+// -------------------------
+$blue:                  #049cdb;
+$blueDark:              #0064cd;
+$green:                 #46a546;
+$red:                   #9d261d;
+$yellow:                #ffc40d;
+$orange:                #f89406;
+$pink:                  #c3325f;
+$purple:                #7a43b6;
+
+// @NOTE: use - for darker and _ for lighter color
+$black-d1: 	#002b36;
+$black-l1 :  #073642;
+$black-d2: darken($black-l1, 10);
+$black-l2:	lighten($black-l1, 10);
+
+$gray-d2:    #586e75;
+$gray-d1:    #657b83;
+$gray-l1:    #839496;
+$gray-l2:    #93a1a1;
+
+$white-d1:   #eee8d5;
+$white-d2: darken($white-d1, 10);
+$white-l1: 	#fdf6e3;
+$white-l2: lighten($white-d1, 10);
+
+$yellow:    #b58900;
+$yellow-l1:	lighten($yellow, 10);
+$yellow-d1:  darken($yellow, 10);
+$yellow-l2:	lighten($yellow-l1, 10);
+$yellow-d2:  darken($yellow-d1, 10);
+$yellow-l3:	lighten($yellow-l2, 10);
+$yellow-d3:  darken($yellow-d2, 10);
+$yellow-l4:	lighten($yellow-l3, 10);
+$yellow-d4:  darken($yellow-d3, 10);
+
+
+$orange:    #cb4b16;
+$orange-l1:	lighten($orange, 10);
+$orange-d1:  darken($orange, 10);
+$orange-l2:	lighten($orange-l1, 10);
+$orange-d2:  darken($orange-d1, 10);
+$orange-l3:	lighten($orange-l2, 10);
+$orange-d3:  darken($orange-d2, 10);
+$orange-l4:	lighten($orange-l3, 10);
+$orange-d4:  darken($orange-d3, 10);
+
+
+$red:       #dc322f;
+$red-l1:	lighten($red, 10);
+$red-d1:  	darken($red, 10);
+$red-l2:	lighten($red-l1, 10);
+$red-d2:  	darken($red-d1, 10);
+$red-l3:	lighten($red-l2, 10);
+$red-d3:  	darken($red-d2, 10);
+$red-l4:	lighten($red-l3, 10);
+$red-d4:  	darken($red-d3, 10);
+
+$magenta:   #d33682;
+$magenta-l1:	lighten($magenta, 10);
+$magenta-d1: darken($magenta, 10);
+$magenta-l2:	lighten($magenta-l1, 10);
+$magenta-d2: darken($magenta-d1, 10);
+$magenta-l3:	lighten($magenta-l2, 10);
+$magenta-d3: darken($magenta-d2, 10);
+$magenta-l4:	lighten($magenta-l3, 10);
+$magenta-d4: darken($magenta-d3, 10);
+
+$violet:    #6c71c4;
+$violet-l1:	lighten($violet, 10);
+$violet-d1:  darken($violet, 10);
+$violet-l2:	lighten($violet-l1, 10);
+$violet-d2:  darken($violet-d1, 10);
+$violet-l3:	lighten($violet-l2, 10);
+$violet-d3:  darken($violet-d2, 10);
+$violet-l4:	lighten($violet-l3, 10);
+$violet-d4:  darken($violet-d3, 10);
+
+
+$blue:      #268bd2;
+$blue-l1:	lighten($blue, 10);
+$blue-d1:  	darken($blue, 10);
+$blue-l2:	lighten($blue-l1, 10);
+$blue-d2:  	darken($blue-d1, 10);
+$blue-l3:	lighten($blue-l2, 10);
+$blue-d3:  	darken($blue-d2, 10);
+$blue-l4:	lighten($blue-l3, 10);
+$blue-d4:  	darken($blue-d3, 10);
+
+
+$cyan:      #2aa198;
+$cyan-l1:	lighten($cyan, 10);
+$cyan-d1:  	darken($cyan, 10);
+$cyan-l2:	lighten($cyan-l1, 10);
+$cyan-d2:  	darken($cyan-d1, 10);
+$cyan-l3:	lighten($cyan-l2, 10);
+$cyan-d3:  	darken($cyan-d2, 10);
+$cyan-l4:	lighten($cyan-l3, 10);
+$cyan-d4:  	darken($cyan-d3, 10);
+
+$green:     #859900;
+$green-l1:	lighten($green, 10);
+$green-d1:  darken($green, 10);
+$green-l2:	lighten($green-l1, 10);
+$green-d2:  darken($green-d1, 10);
+$green-l3:	lighten($green-l2, 10);
+$green-d3:  darken($green-d2, 10);
+$green-l4:	lighten($green-l3, 10);
+$green-d4:  darken($green-d3, 10);
+
