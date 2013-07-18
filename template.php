@@ -224,3 +224,55 @@ function zen_backend_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+
+
+/**
+ * Add extra CSS class to the admin table
+ * @param unknown $form
+ * @param unknown $form_state
+ * @param unknown $form_id
+ */
+function zen_backend_form_node_admin_content_alter(&$form, &$form_state, $form_id) {
+	$headers = $form['admin']['nodes']['#header'];
+	
+	// Loop through the rows in the table and add the changed by column
+	foreach ($form['admin']['nodes']['#options'] as $nid => $row) {
+		foreach ($headers as $key => $headerData){
+			if (! is_array($row[$key]))
+				$form['admin']['nodes']['#options'][$nid][$key] = array('data' => $row[$key], 'class' => $key);
+			else
+				$form['admin']['nodes']['#options'][$nid][$key]['class'] = $key;
+		}
+	}
+//   // Load the nodes. This incurrs very little overhead as 
+//   // "$nodes = node_load_multiple($nids);" has already been run on these
+//   // nids in node_admin_nodes(). The static cache will be used instead of
+//   // another db query being invoked
+//   $nodes = node_load_multiple(array_keys($form['admin']['nodes']['#options']));
+
+//   // Grab a list of all user ids that have been responsible for changing the node
+//   $uids = array();
+//   foreach ($nodes as $node) {
+//     $uids[] = $node->changed_by;
+//   }
+
+//   // Filter out duplicates (one user may have been the last to change more than one node)
+//   $uids = array_unique($uids);
+
+//   // Load a list of all involved users in one go. This is about as performant
+//   // as this is going to get, as you're going to need the user objects one
+//   // way or the other for the call to theme_username
+//   $users = user_load_multiple($uids);
+
+//   // Add another column to the table header
+//   $form['admin']['nodes']['#header']['changed_by'] = array('data' => t('Changed by'));
+
+//   // Loop through the rows in the table and add the changed by column
+//   foreach ($form['admin']['nodes']['#options'] as $nid => $row) {
+//     // Grab the user related to this node.
+//     $this_user = $users[$nodes[$nid]->changed_by];
+
+//     // Add data for the new column
+//     $form['admin']['nodes']['#options'][$nid]['changed_by'] = theme('username', array('account' => $this_user));
+//   }
+}
