@@ -526,7 +526,7 @@ input[type="submit"] {
   *display: inline; /* IE7 inline-block hack */
   *zoom: 1;
   padding: 4px 12px;
-  margin-bottom: 0; // For input.btn
+  margin: 0 0.5em 0 0;	/* RTL */
   font-size: $baseFontSize;
   line-height: $baseLineHeight;
   text-align: center;

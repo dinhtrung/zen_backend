@@ -35,3 +35,13 @@ div.admin-panel {
 			@include trailer(0.5);
 		}
 	}
+
+ul.action-links {
+	padding: 0;
+	li {
+		list-style-type: none;
+	}
+	a {
+		@extend .btn;
+	}
+}	
